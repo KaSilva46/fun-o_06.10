@@ -1,0 +1,23 @@
+ def vogais_aeiou(aeiou):
+    cont=0
+    vogal='aeiou'
+    for c in aeiou:
+        if c in vogal:
+         cont+=1
+    print(cont)
+
+def trescoracoes(quantidade_cafe,valor_cafe):
+
+    custo=quantidade_cafe*valor_cafe
+    print(f'a custo total de {quantidade_cafe} cafes é: {custo}')
+    return custo'''
+
+def condicao(pri):
+
+     if pri>0:
+      pri="p"
+     elif pri<0:
+      pri="n"
+     else:
+      pri="z"
+     return pri
