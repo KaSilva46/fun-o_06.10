@@ -21,3 +21,22 @@ def condicao(pri):
      else:
       pri="z"
      return pri
+
+def deposito(merc,prco):
+ produto=[]
+ valor=[]
+
+ produto.append(merc)
+ valor.append(prco)
+ 
+ #main
+ 
+ 
+while True:
+    name=str(input("digite o nome do produto: "))
+    preco=float(input("digite o valor: "))
+    deposito(name,preco)
+    rest=str(input("deseja continuar? sim ou não?"))
+    if rest=='não':
+        print("o código acabou")
+    break
